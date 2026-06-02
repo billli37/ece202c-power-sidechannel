@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Data Files (Side-channel traces, etc.)
+*.h5
+*.hdf5
+ascad_mini.h5
+
+# Generated Output / Plots
+*.png
+*.jpg
+*.pdf
+ghost_peak_analysis.png
+multi_round_attack_timeline.png
+
+# LangGraph Checkpointing / DBs
+*.sqlite3
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs / Editors
+.vscode/
+.idea/
+*.swp
+*.swo
