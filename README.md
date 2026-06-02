@@ -1,10 +1,10 @@
 # Autonomous Hardware Cryptanalysis Agent Workstation
 
-An adaptive, Human-in-the-Loop (HITL) side-channel analysis harness built using LangGraph and Anthropic Claude 3.5 Sonnet. This framework automates the identification and extraction of secret keys from countermeasure-hardened hardware implementations of AES-128.
+Human-in-the-Loop (HITL) side-channel analysis harness built using LangGraph and Anthropic Claude 3.5 Sonnet. This framework automates the identification and extraction of secret keys from countermeasure-hardened hardware implementations of AES-128.
 
 ## System Architecture
 
-Rather than executing linear scripts or relying on an unconstrained LLM on autopilot, this platform leverages a cyclical **State Graph Machine with Breakpoint Gates**. This architecture allows an automated agent to run high-volume statistical processing sweeps while yielding control back to a Human Supervisor when microarchitectural roadblocks (such as algorithmic masking) are detected.
+Rather than executing linear scripts or relying on an unconstrained LLM on autopilot, this uses a cyclical **State Graph Machine with Breakpoint Gates**. This architecture allows an automated agent to run high-volume statistical processing sweeps while yielding control back to a Human Supervisor when microarchitectural roadblocks (such as algorithmic masking) are detected.
 
 ### Multi-Turn Self-Correction Topology
 
